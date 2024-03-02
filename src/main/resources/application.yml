@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:libraryDb
+    username: sa
+    password:
+    schema: tables_creation.sql
+    data: insert_initial_data.sql
+    initialization-mode: always
